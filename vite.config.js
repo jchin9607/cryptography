@@ -10,4 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
+  base: "https://jchin9607.github.io/",
 });
